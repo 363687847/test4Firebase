@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lan = "en">
+<head>
+	<meta charset="utf-8">
+	<title>Hui's database testing site
+	</title>
+	<body>
+		<div class="draft">
+			<center>
+				<h1>AHOY's DB testing site</h1><br>
+				<h2>Subscribe to mailing list</h2><br>
+			</center>
+			<form class="sub">
+				<center>
+					<label for="inputmail">Email address:</label>
+					<input type="mailIcon" name="email" id="email">
+					<button type="button" document.getElementById('email').value>Subscribe!!!!!!!!!</button>
+				</center>
+			</form>
+		
+
+
+
+		</div>
+<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+<script src="saveToFirebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBTJbn5s2NWz0k1TYkeXzrSGNpcZ03c8UU",
+    authDomain: "test-ba1b2.firebaseapp.com",
+    databaseURL: "https://test-ba1b2.firebaseio.com",
+    projectId: "test-ba1b2",
+    storageBucket: "test-ba1b2.appspot.com",
+    messagingSenderId: "641915310110"
+  };
+  firebase.initializeApp(config);
+  saveToFirebase(email)
+</script>
+
+
+
+
+	</body>
+</head>
+</html>
